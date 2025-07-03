@@ -32,11 +32,6 @@ https://www.loom.com/share/d0623f43552a496191a319838d60f79f
 | **Verify** facts | For each letter fact, compare against case facts with structured verdict (`FactVerificationResult`). | Serial calls (rate-limited). |
 | **Compile** results | Aggregate verdicts → hallucination list + score → decide which template needs improvement. | Threshold: pass if ≥95 % supported. |
 
-**Strengths**  
-• Granular hallucination types (fabricated, unsupported, factual error, inconsistency).  
-• Structured outputs reduce parsing fragility.  
-• Session-level caching of case facts saves cost.
-
 ---
 
 ## How to Run (Quick Start)
